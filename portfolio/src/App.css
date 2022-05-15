@@ -1,0 +1,354 @@
+.main{
+  position: relative;
+}
+.line{
+  border-left: 1px solid #193746;
+  height: 40vh;
+}
+.prjRoute {
+  border: 1px solid black;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;  
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2 px solid white;
+  background: #193746;
+  color: white;
+  border-radius: 0.15rem;
+  box-shadow: 0 2px 20px #e1e5ee;
+}
+.contactRoute{
+  border: 1px solid black;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;  
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2 px solid white;
+  background: #193746;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 200;
+  border-radius: 0.15rem;
+  box-shadow: 0 2px 20px #e1e5ee;
+}
+form{
+  width:100%;
+  
+}
+.form-group{
+    width:75%;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #193746;
+}
+label{
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  color: #193746;
+}
+input,
+textarea{
+width: 100%;
+padding: 1.2rem;
+color: gray;
+background: transparent;
+border: 1px solid #5085a5;
+outline: none;
+border-radius: 5px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+input:hover,
+textarea:hover{
+  transition-duration: 0.2s;
+background: rgba(80,133,165,0.2);
+}
+textarea{
+  resize: vertical;
+  min-height: 200px;
+}
+.contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20vh;
+}
+form button{
+  padding: 0.65rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.5rem;
+  background: #193746;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2rem; 
+  
+  font-family: "Raleway", sans-serif;
+}
+form button:hover{
+  border: 2 px solid white;
+  background: transparent;
+  color: #193746;
+  transition-duration: 0.2s;
+}
+.social{
+  position: relative;
+  padding: 1rem;
+  background: rgba(25, 55, 70, 0.9);
+  border: 1px solid #5085a5;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  padding-right: 5rem;
+}
+.social:hover{
+  scale: 1.1;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.social li{
+  list-style:none;
+}
+.socialText{
+  margin-left:auto;
+}
+.contactSubTitle{
+  font-family: "Raleway", sans-serif;
+  color: #193746;
+  display: flex;
+  margin-bottom: 5vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.projectMain, .contactTitle
+{
+  font-family: "Raleway", sans-serif;
+  color: #193746;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 200%;
+}
+.projectlist {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(14rem, 20rem));
+  gap: 2rem;
+  justify-content: center;
+}
+.project{
+  border: 1px solid rgba(80, 133, 165, 0.2);
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 2px 20px #e1e5ee;
+  border-radius: 0.2rem;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+  padding-bottom: 15vh;
+  border-radius: 15px;
+}
+.project:hover{
+  transform:scale(1.02);
+  box-shadow: 0 2px 20px #b9bec8;
+  transition-duration: 0.2s;
+}
+.projectlist img{
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+.prjTitle{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+}
+.prjScript {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+  
+}
+.prjImg2{
+  position:absolute;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.prjImg{
+  opacity: 1;
+  transition: opacity .2s;
+}
+.prjBody footer{
+  position: absolute;
+  bottom: 0;
+}
+.prjTech{
+  position: absolute;
+}
+.prjCode, .prjLink{
+  display: inline;
+  padding: 0.85rem;
+  margin: 0.5rem;
+  margin-bottom: 2vh;
+  margin-left: 1.1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2 px solid white;
+  background: #193746;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2rem; 
+  font-family: "Raleway", sans-serif;
+}
+.prjCode:hover,
+.prjLink:hover,
+.prjRoute:hover,
+.contactRoute:hover{
+ background: white;
+  color: #193746;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+body {
+  background-color: white;
+}
+.title::before {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  color: #193746;
+}
+.home h1 {
+  margin-right: 25vh;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  border: 2px solid black;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  margin-top: 5vh;
+  color: #5085a5;
+}
+.home{
+  margin-left: 45vh;
+  margin-right: 25vh;
+  margin-top: 5vh;
+  font-family: "Raleway", sans-serif;
+}
+.nav-links-footer {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: "QuickSand";
+  font-weight: bold;
+  font-size: large;
+  padding-left: 0;
+}
+.nav-footer{
+  display: flex;
+  align-items: center;
+  min-height: 5vh;
+  margin-left: 45vh;
+  margin-right: 45vh;
+  padding: 0;
+  margin-bottom: 5vh;
+  border: 2px solid black;
+  color: #5085a5;
+}
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: "QuickSand";
+  font-weight: bold;
+  font-size: large;
+}
+a {
+  color: #5085a5;
+  text-decoration: none;
+}
+.home a, .project a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.home a:visited, .project a{
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+.nav-links li:hover,
+.nav-links-footer li:hover {
+  color: #193746;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.logo {
+  color: #193746;
+  font-weight: bold;
+  margin-right: 50vh;
+  margin-top: 0;
+  margin-bottom: 0.5vh;
+  font-size: 5vh;
+}
+.projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li .link-selected {
+  color: #193746;
+  text-decoration: underline;
+}
+.timeline {
+  font-family: 'QuickSand', Courier, monospace;
+}
+@media (max-width: 600px) {
+  .nav-links {
+    display: inline;
+    margin: auto;
+    font-size: 90%;
+  }
+  .title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    margin-right: 15vh;
+  }
+  a:visited {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}

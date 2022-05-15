@@ -1,0 +1,5 @@
+﻿  commonHelpers.cpp
+C:\Users\pasha\Desktop\DBS211 RON\DBS211_Project\commonHelpers.cpp(4,10): fatal error C1083: Cannot open include file: 'occi.h': No such file or directory
+  DBS211_DB_Connection_Test.cpp
+C:\Users\pasha\Desktop\DBS211 RON\DBS211_Project\DBS211_DB_Connection_Test.cpp(2,10): fatal error C1083: Cannot open include file: 'occi.h': No such file or directory
+  Generating Code...
