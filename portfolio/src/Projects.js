@@ -36,7 +36,7 @@ const projs = [
 
 function Projects() {
   return (
-    <section>
+    <section className='projectSection'>
        <h1 className='projectMain'>Check Out My Projects</h1>
        <h4 className='contactSubTitle'>You can visit the source code to learn more, or view the project in action</h4>
        <div className='projectlist'>
@@ -56,7 +56,7 @@ function MouseOn(event){
 function MouseOut(event){
   event.target.style.opacity= '0';
 }
-if (isHosted == 'true') {
+if (isHosted === 'true') {
   return (
   <article className='project'>
       <div className='project-inner'>

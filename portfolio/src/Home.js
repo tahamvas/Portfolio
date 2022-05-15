@@ -1,3 +1,4 @@
+import React from 'react'
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import { NavLink } from "react-router-dom";
 import resume from './assets/resume.pdf'
