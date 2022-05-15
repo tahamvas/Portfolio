@@ -13,18 +13,17 @@ return (
             <div className='leftSide'>
              <ul><a href="https://www.linkedin.com/in/tyler-hamvas-2739bb231/">
                 <div className='social' ><li>
-                <SocialIcon url="https://www.linkedin.com/in/tyler-hamvas-2739bb231/" /> Tyler Hamvas
-                 </li>
+                <SocialIcon url="https://www.linkedin.com/in/tyler-hamvas-2739bb231/" /></li>
                 </div>
                 </a>
                 <a href="mailto:tyler.hamvas@gmail.com">
                 <div className='social' ><li>
-                 <SocialIcon className='subTitle' url="mailto:tyler.hamvas@gmail.com" /> <span className='socialText' >tyler.hamvas@gmail.com</span></li>
+                 <SocialIcon className='subTitle' url="mailto:tyler.hamvas@gmail.com" /> <span className='socialText' ></span></li>
                  </div>
                 </a>
                  <a href="https://github.com/TylerHamvas">
                  <div className='social' ><li>
-                 <SocialIcon className='subTitle' url="https://github.com/TylerHamvas" /> Tyler Hamvas</li>
+                 <SocialIcon className='subTitle' url="https://github.com/tahamvas/Portfolio" /></li>
                  
                  </div>
                 </a>
@@ -36,13 +35,13 @@ return (
             <form>
                 <div className='form-group'>
                 <label htmlFor="name">Your Name
-                    <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)}/>
+                    <input type="text" placeholder="First and Last Name" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)}/>
                 </label>
                 <label htmlFor="email">Your E-mail
-                    <input type="text" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                    <input type="text" placeholder="E-mail Address" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 </label>
                 <label htmlFor="message">Your Message
-                    <textarea type="text" id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
+                    <textarea type="text" placeholder="What would you like to say?" id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
                 </label>
                 </div>
                 <button type="submit">Send Message</button> 

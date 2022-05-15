@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Route, Routes, useLocation} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 //Pages 
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -20,6 +20,5 @@ function App(){
     </div>
   );
 }
-
 
 export default App;
