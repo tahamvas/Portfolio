@@ -11,25 +11,23 @@ return (
         <h4 className='contactSubTitle'>or send me a message</h4>
         <div className='contact'>
             <div className='leftSide'>
-             <ul><a href="https://www.linkedin.com/in/tyler-hamvas-2739bb231/">
-                <div className='social' ><li>
-                <SocialIcon url="https://www.linkedin.com/in/tyler-hamvas-2739bb231/" /></li>
-                </div>
-                </a>
-                <a href="mailto:tyler.hamvas@gmail.com">
-                <div className='social' ><li>
-                 <SocialIcon className='subTitle' url="mailto:tyler.hamvas@gmail.com" /> <span className='socialText' ></span></li>
-                 </div>
-                </a>
-                 <a href="https://github.com/TylerHamvas">
-                 <div className='social' ><li>
-                 <SocialIcon className='subTitle' url="https://github.com/tahamvas/Portfolio" /></li>
-                 
-                 </div>
-                </a>
-       
-        </ul>
-        </div>
+                <ul><a href="https://www.linkedin.com/in/tyler-hamvas-2739bb231/">
+                    <div className='social' ><li>
+                        <SocialIcon url="https://www.linkedin.com/in/tyler-hamvas-2739bb231/" /></li>
+                    </div>
+                    </a>
+                    <a href="mailto:tyler.hamvas@gmail.com">
+                    <div className='social' ><li>
+                        <SocialIcon className='subTitle' url="mailto:tyler.hamvas@gmail.com" /> <span className='socialText' ></span></li>
+                    </div>
+                    </a>
+                    <a href="https://github.com/TylerHamvas">
+                    <div className='social' ><li>
+                        <SocialIcon className='subTitle' url="https://github.com/tahamvas/Portfolio" /></li>
+                    </div>
+                    </a>
+                </ul>
+            </div>
         <div className='line'></div>
         <div className='rightSide'>
             <form>

@@ -7,7 +7,7 @@ function Home(){
     return(
         
 <div className='home'>
-  <h1 className='title'>Hey, my name is Tyler and I'm a software developer from Toronto, Ontario.</h1>
+  <h1 className='projectMain'>Hey, my name is Tyler and I'm a software developer from Toronto, Ontario.</h1>
   <h4 className="subTitle">Take a look at my <span className='prjRoute'><a href={resume} target="_blank ">
                           Resume</a></span> or the <span className='prjRoute'><NavLink to='/projects'>Projects</NavLink></span> page to learn more 
                           about me or scroll down to view my timeline</h4>

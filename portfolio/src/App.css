@@ -1,7 +1,11 @@
 .main{
   position: relative;
 }
-
+.contact button{
+  position: relative;
+  left: 78vh;
+  bottom: 2vh;
+}
 .line{
   border-left: 1px solid #193746;
   height: 40vh;
@@ -86,7 +90,6 @@ form button{
   color: white;
   cursor: pointer;
   border-radius: 0.2rem; 
-  
   font-family: "Raleway", sans-serif;
 }
 form button:hover{
@@ -408,7 +411,6 @@ li .link-selected {
       margin-left: 7vh;
       margin-right: 5vh;
       margin-top: 5vh;
-      font-family: "Raleway", sans-serif;
     }
   a:visited {
     color: inherit;
