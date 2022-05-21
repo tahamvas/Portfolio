@@ -198,6 +198,9 @@ form button:hover{
 .prjTech{
   position: absolute;
 }
+.submitButton{
+  border-radius: 0.3rem;
+}
 .prjCode, .prjLink{
   display: inline;
   padding: 0.85rem;
@@ -211,7 +214,7 @@ form button:hover{
   background: #193746;
   color: white;
   cursor: pointer;
-  border-radius: 0.2rem; 
+  border-radius: 0.3rem; 
   font-family: "Raleway", sans-serif;
 }
 .prjCode:hover,
@@ -290,6 +293,10 @@ a {
   color: white;
   text-decoration: none;
   cursor: pointer;
+}
+.home a:hover,
+.project a:hover {
+  color: #193746;
 }
 .home a:visited, .project a{
   color: inherit;

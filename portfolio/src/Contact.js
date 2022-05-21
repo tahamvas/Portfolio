@@ -42,7 +42,7 @@ return (
                     <textarea type="text" placeholder="What would you like to say?" id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
                 </label>
                 </div>
-                <button type="submit">Send Message</button> 
+                <button className="submitButton" type="submit">Send Message</button> 
             </form>
         </div>
         </div>

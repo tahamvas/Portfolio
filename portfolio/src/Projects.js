@@ -5,7 +5,7 @@ import projs from './Projs'
 function Projects() {
   return (
     <section className='projectSection'>
-       <h1 className='projectMain'>Check Out My Projects</h1>
+       <h1 className='contactTitle'>Check Out My Projects</h1>
        <h4 className='contactSubTitle'>You can visit the source code, or view hosted projects in action</h4>
        <div className='projectlist'>
       {projs.map((proj) => {
@@ -27,7 +27,7 @@ function MouseOut(event){
 if (isHosted === 'true') {
   return (
   <article className='project'>
-      <div className='project-inner'>
+      <a href={btn1}><div className='project-inner'>
              <div className='prjBody'>
                 <div className='imgFlip'>
                   <img className='prjImg2' src={tags} alt='' onMouseOver={MouseOn} onMouseOut={MouseOut}/>
@@ -40,13 +40,13 @@ if (isHosted === 'true') {
                 <button className="prjLink"><a href={btn2}>View Project</a></button>
                 </footer>
              </div>
-      </div>
+      </div></a>
    </article>
 );
 }
 return (
   <article className='project'>
-      <div className='project-inner'>
+      <a href={btn1}><div className='project-inner'>
              <div className='prjBody'>
                 <div className='imgFlip'>
                   <img className='prjImg2' src={tags} alt='' onMouseOver={MouseOn} onMouseOut={MouseOut}/>
@@ -58,7 +58,7 @@ return (
                 <button className='prjCode'><a href={btn1}>Source Code</a></button>
                 </footer>
              </div>
-      </div>
+      </div></a>
    </article>
 );
 }
