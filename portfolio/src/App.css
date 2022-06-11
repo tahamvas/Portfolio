@@ -221,7 +221,7 @@ form button:hover{
 .prjLink:hover,
 .prjRoute:hover,
 .contactRoute:hover{
- background: white;
+  background: white;
   color: #193746;
   cursor: pointer;
   transition-duration: 0.2s;
@@ -357,7 +357,6 @@ li .link-selected {
   background-color: black;
   border-radius: 10px;
 }
-
 @media (max-width: 1030px) {
   .nav-links{
     flex-direction: column;
