@@ -5,9 +5,10 @@
 * 
 *  Name: Tyler Hamvas Student ID: 065071128 Date: 2022-06-15
 *
-*  Online (Heroku) URL: https://tranquil-mesa-39327.herokuapp.com/
-*
+*  Heroku App URL: https://fierce-thicket-35179.herokuapp.com/
+* 
 *  GitHub Repository URL: https://github.com/tahamvas/web322-app
+
 *
 ********************************************************************************/ 
 //Imports
