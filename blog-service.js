@@ -30,12 +30,34 @@ exports.getAllPosts = () => {
 }
 exports.getPublishedPosts = () => {
     return new Promise((resolve, reject) => {
+        
+        console.log("inside getPublishedPosts");
         //Temporary array to hold published posts
         var tempPosts = [];
         var k = 0;
         //Loop through array to find published posts
         for (var i = 0; i < posts.length; i++){
             if (posts[i].published == true){
+                tempPosts[k] = posts[i];
+                k++;
+            }
+        }
+        //True if more than 0 posts are published
+        if (tempPosts.length > 0)
+        resolve(tempPosts);
+        else
+        reject("No results returned");
+    });
+}
+exports.getPublishedPostsByCategory = (category) => {
+    return new Promise((resolve, reject) => {
+        console.log("inside getPublishedPostsByCategory");
+        //Temporary array to hold published posts
+        var tempPosts = [];
+        var k = 0;
+        //Loop through array to find published posts
+        for (var i = 0; i < posts.length; i++){
+            if (posts[i].published == true && posts[i].category == category){
                 tempPosts[k] = posts[i];
                 k++;
             }
@@ -88,20 +110,14 @@ exports.getPostsByMinDate = (minDateStr) => {
 }
 exports.getPostsById = (id) => {
     return new Promise((resolve, reject) => {
-        //Temporary array to hold published posts
-        var tempPosts = [];
-        var k = 0;
         //Loop through array to find published posts
         for (var i = 0; i < posts.length; i++){
             if (posts[i].id == id){
-                tempPosts[k] = posts[i];
-                k++;
+                resolve(posts[i]);
             }
         }
         //True if more than 0 posts are published
-        if (tempPosts.length > 0)
-        resolve(tempPosts);
-        else
+        if (tempPosts.length == 0)
         reject("No results returned");
     });
 }
@@ -121,6 +137,7 @@ exports.addPost = (postData) => {
                 postData.published = true;
             }
             postData.id = posts.length + 1;
+            postData.postDate = posts.postDate;
             posts.push(postData);
             return new Promise((resolve, reject) => {
             if (posts.length > 0)
