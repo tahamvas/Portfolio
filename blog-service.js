@@ -64,7 +64,7 @@ exports.getPublishedPostsByCategory = (value) => {
                 published: true
             }
         })
-        .then(resolve(Post.findAll({where: {category : value, published: 'true'}})))
+        .then(resolve(Post.findAll({where: {category : value, published: true}})))
         .catch(reject("no results returned"));
 });
 
@@ -76,7 +76,7 @@ exports.getPostsByCategory = (value) => {
                 category: value
             }
         })
-        .then(resolve(Post.findAll()))
+        .then(resolve(Post.findAll({where: {category: value}})))
         .catch(reject("no results returned"));
 });
 }
