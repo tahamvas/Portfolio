@@ -1,5 +1,5 @@
 /*********************************************************************************
-*  Online (Heroku) Link: https://radiant-coast-30689.herokuapp.com/
+*  Online (Heroku) Link: https://pure-taiga-80521.herokuapp.com/
 ********************************************************************************/ 
 const express = require('express');
 const blogData = require("./blog-service");
@@ -14,7 +14,7 @@ const authData = require('./auth-service');
 
 const app = express();
 
-const HTTP_PORT = process.env.PORT || 3000;
+const HTTP_PORT = process.env.PORT || 8080;
 
 cloudinary.config({
     cloud_name: 'dwxcjemur',
