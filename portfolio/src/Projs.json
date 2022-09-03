@@ -21,7 +21,7 @@
   ,
   {
     "img": "https://i.imgur.com/anG4JRw.png", 
-    "btn1": "https://github.com/tahamvas/Portfolio/tree/master/Projects/MERN%20Website",
+    "btn1": "https://github.com/tahamvas/Portfolio/tree/master/Projects/MERN%20Website/MERN%20Blog%20Website",
     "btn2": "",
     "title": "MERN Blog Website",
     "script": "A blog website created using MongoDB to create and store user accounts and information, using Express.js for routing and other functionality. Bootstrap was also used to implement fully responsive CSS styling.",
