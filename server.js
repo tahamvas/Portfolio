@@ -1,15 +1,5 @@
 /*********************************************************************************
-*  WEB322 – Assignment 06
-*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part of this
-*  assignment has been copied manually or electronically from any other source (including web sites) or 
-*  distributed to other students.
-* 
-*  Name: Tyler Hamvas Student ID: 065071128 Date: 2022-08-12
-*
-*  Online (Heroku) Link: https://fierce-thicket-35179.herokuapp.com/
-*
-*  GitHub Repository URL: https://github.com/tahamvas/web322-app/
-*
+*  Online (Heroku) Link: https://radiant-coast-30689.herokuapp.com/
 ********************************************************************************/ 
 const express = require('express');
 const blogData = require("./blog-service");
