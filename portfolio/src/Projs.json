@@ -4,7 +4,7 @@
     "btn1": "https://github.com/tahamvas/Portfolio/tree/master/portfolio",
     "btn2": "https://tylerhamvas.ca ",
     "title": "Portfolio Website",
-    "script": "Personal website created to showcase my skills, experience and any projects I have completed. This project was completed using ReactJS and CSS.",
+    "script": "Personal website created to showcase my skills, experience and any projects I have completed. This project was completed using ReactJS hooks and routing, as well as CSS for styling.",
     "tags": "https://i.imgur.com/VdwZ8bJ.png",
     "isHosted": "true"
   }
@@ -20,12 +20,23 @@
   }
   ,
   {
+    "img": "https://i.imgur.com/anG4JRw.png", 
+    "btn1": "https://github.com/tahamvas/Portfolio/tree/master/Projects/MERN%20Website",
+    "btn2": "",
+    "title": "MERN Blog Website",
+    "script": "A blog website created using MongoDB to create and store user accounts and information, using Express.js for routing and other functionality. Bootstrap was also used to implement fully responsive CSS styling.",
+    "tags": "https://i.imgur.com/fuCWrXW.png",
+    "isHosted": "false"
+  }
+  ,
+  {
     "img": "https://i.imgur.com/eQbG06b.png", 
     "btn1": "https://github.com/tahamvas/Portfolio/tree/master/Projects/Snake",
     "btn2": "",
     "title": "Snake Game",
-    "script": "A simple game created using Python. It includes user input to direct the snake, as well as interactable objects which the snake can eat. Eating an object maniupulates the size of the snake",
+    "script": "A simple game created using Python. It includes user input to direct the snake, as well as interactable objects which the snake can eat. Eating an object maniupulates the size of the snake.",
     "tags": "https://i.imgur.com/n8QFdmu.png",
     "isHosted": "false"
   }
+  
 ]
